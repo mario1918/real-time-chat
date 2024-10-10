@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("./assets/img/2560x1600.jpg");
+    background-color: black;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.title {
+    color: white;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.mid-containter{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgba(256, 256, 256, 0.5);
+    margin: auto;
+}
+
+.message-area {
+    background-color: white;
+    height: 26vh;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+.user-text {
+    font-weight: bold;
+    display: inline;
+    padding-left: 10px;
+}
+
+.messgae-text {
+    color: black;
+    padding-left: 10px;
+
+}
+
+
