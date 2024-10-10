@@ -3,6 +3,7 @@ let messageArea = document.getElementById("message-area");
 let message = document.getElementById("message");
 let sendButton = document.getElementById("button-send");
 let numberOfUsers = document.getElementById("usersCount");
+let audio = document.getElementById("myAudio");
 
 // Function to generate a random hex color
 function getRandomColor() {
@@ -58,6 +59,7 @@ socket.on('chat message', (msg) => {
     recMessage.classList.add("messgae-text");
     recMessage.textContent = msg;
     messageArea.appendChild(recMessage);
+    audio.play();
 
     //Auto scroll to the bottom
     autoScroll();
